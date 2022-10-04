@@ -6,7 +6,7 @@ body {
 header {
     display: flex;
     min-height: 70px;
-    background-color: coral;
+    background-color: #ff7f50;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -25,15 +25,14 @@ header {
 a {
     text-decoration: none;
     padding: 10px;
-    color: black;
-
+    color: #000;
 }
 
 nav a:hover {
-    color: white;
+    color: #fff;
 }
 
-.navfoo img {
+.navFooter img {
     height: 30px;
     padding: 5px;
 }
@@ -49,7 +48,7 @@ footer {
     flex-direction: column;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
     header {
         flex-direction: column;
     }
