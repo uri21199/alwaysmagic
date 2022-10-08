@@ -4,6 +4,18 @@ body {
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Whatsapp Icon */
+.wspIcon {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 2000;
+    border-radius: 80%;
 }
 
 /* Navbar */
@@ -46,7 +58,8 @@ body {
     color: #fff;
 }
 
-.menuItems li:hover, li.active {
+.menuItems li:hover,
+li.active {
     background-color: rgba(0, 0, 0, 0.3);
     transition: .4s;
 }
@@ -74,7 +87,7 @@ ul.show {
     }
 }
 
-@media screen and (max-width: 858px){
+@media screen and (max-width: 858px) {
     .menu {
         height: 65px;
     }
@@ -134,18 +147,75 @@ ul.show {
 
 /* Footer */
 
-footer {
-    position: absolute;
+.footerFinal {
+    padding: 0;
+    margin: 0;
     width: 100%;
-    bottom: 0;
-    background-color: coral;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-color: rgb(252, 147, 109);
+    border-top: 1px solid #fff;
 }
 
-.navFooter img {
-    height: 30px;
-    padding: 5px;
+.footerItems {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.footerItems ul {
+    padding: 0;
+}
+
+.redes ul {
+    padding: 0;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ulTitulo {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footerItems ul li {
+    list-style: none;
+    padding-bottom: 2px;
+}
+
+.footerItems ul a {
+    font-size: 1.05em;
+    text-decoration: none;
+    color: #000;
+}
+
+.footerItems ul a:hover {
+    color: #fff;
+}
+
+.derechos {
+    text-align: center;
+    font-size: .75em;
+    border-top: 1px solid #242323;
+    padding: 0;
+    padding-bottom: 2px;
+}
+
+@media screen and (max-width: 858px) {
+    .footerFinal {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .footerItems {
+        padding-left: 10px;
+        flex-direction: column;
+    }
+
+    .footerItems ul {
+        width: 60%;
+    }
 }
