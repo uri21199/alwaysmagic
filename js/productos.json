@@ -3,35 +3,35 @@
 		"id": "1",
 		"nombre": "Varita Hermione",
 		"precio":"800",		
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21296&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/LPhJ7SH/varita-Hermione.jpg"
 	},
 
 	{
 		"id": "2",		
 		"nombre": "Varita Harry",
 		"precio":"800",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21299&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/qRWhgKb/varita-Harry.jpg"
 	},
 
 	{
 		"id": "3",		
 		"nombre": "Varita Ron",
 		"precio":"800",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21300&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/h72FR5T/varita-Ron.jpg"
 	},
 
 	{
 		"id": "4",		
 		"nombre": "Varita Sauco",
 		"precio":"800",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21281&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/5FjTJKN/varita-Sauco.jpg"
 	},
 
 	{
 		"id": "5",		
 		"nombre": "Varita Voldemort",
 		"precio":"800",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21248&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/26mmBsL/varita-Voldemort.jpg"
 	},
 
 
@@ -39,7 +39,7 @@
 		"id": "6",		
 		"nombre": "Varita Cedric",
 		"precio":"800",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21151&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/4mq3zVv/varita-Cedric.jpg"
 	},
 
 
@@ -47,7 +47,7 @@
 		"id": "7",		
 		"nombre": "Varita Snape",
 		"precio":"1200",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21247&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/LpJGngx/varita-Snape.jpg"
 	},
 
 
@@ -55,21 +55,21 @@
 		"id": "8",		
 		"nombre": "Mini Varita Harry",
 		"precio":"300",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21350&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/Kb9YQ8d/mini-Harry.jpg"
 	},
 
 	{
 		"id": "9",		
 		"nombre": "Mini Varita Ron",
 		"precio":"300",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21337&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/tDKBkfy/miniRon.jpg"
 	},
 
 	{
 		"id": "10",
 		"nombre": "Mini Varita Hermione",
 		"precio":"300",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21346&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/6DhmXvg/mini-Hermione.jpg"
 	},
 
 
@@ -77,13 +77,13 @@
 		"id": "11",		
 		"nombre": "Llaveros Harry Potter",
 		"precio":"300",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21253&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/D7NCX0H/llaveros.jpg"
 	},
 
 	{
 		"id": "12",
 		"nombre": "Velas Harry Potter",
 		"precio":"600",
-		"url":"https://onedrive.live.com/?cid=BDC0CC891E319C7C&id=BDC0CC891E319C7C%21321&parId=BDC0CC891E319C7C%21146&o=OneUp"
+		"url":"https://i.ibb.co/3y7j9kH/velas.jpg"
 	}
 ]
