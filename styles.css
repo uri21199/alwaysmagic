@@ -226,3 +226,61 @@ ul.show {
 main {
     min-height: calc(100vh - 100px - 200px);
 }
+
+/* Galeria de productos */
+.gallery {
+    margin: 120px 0;
+}
+
+.gallery .content {
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.gallery .content img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+
+.gallery .content h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.gallery .content p {
+    text-align: center;
+    color: #b2bec3;
+    padding: 0 8px;
+}
+
+.gallery .content h6 {
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+
+.gallery .content button {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    background-color: #fff;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.gallery .content .buy-1 {
+    background-color: #2183a2;
+}
