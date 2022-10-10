@@ -284,3 +284,49 @@ main {
 .gallery .content .buy-1 {
     background-color: #2183a2;
 }
+
+
+/*nosotros*/
+
+.about .row{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap:1.5rem;
+   padding: 1rem 1rem;
+
+}
+
+.about .row .image{
+   flex:1 1 40rem;
+}
+
+.about .row .image img{
+   width: 80%;
+   margin-left: 3rem;
+}
+
+.about .row .content{
+   flex:1 1 40rem;
+}
+
+.about .row .content h3{
+   font-size: 1.5rem; 
+
+}
+
+.about .row .content p{
+   line-height: 2;
+   font-size: 1rem;
+   padding: 0.5rem 0;
+
+}
+
+@media screen and (max-width: 600px){
+
+ .about .row .image img{
+   width: 100%;
+   margin-left: 0;
+}
+
+}
