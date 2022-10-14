@@ -228,16 +228,24 @@ main {
 }
 
 /* Galeria de productos */
-.gallery {
-    margin: 120px 0;
+
+.gallery h2 {
+    text-align: center;
 }
 
 .gallery .content {
     box-sizing: border-box;
-    text-align: center;
-    border: 1px solid #000;
-    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     transition: 0.4s;
+}
+
+.producto {
+    margin: 10px 15px;
+    width: 250px;
+    height: 375px;
+    border: 1px solid #000;
 }
 
 .gallery .content img {
@@ -249,7 +257,7 @@ main {
     object-fit: cover;
 }
 
-.gallery .content h3 {
+.gallery .content h6 {
     text-align: center;
     font-size: 30px;
     margin: 0;

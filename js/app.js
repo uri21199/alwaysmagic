@@ -36,12 +36,12 @@ const crear = dataJSON => {
         img.src = producto.url;
 
         //crear h3
-        let h3 = document.createElement('h3');
+        let h3 = document.createElement('h6');
         h3.classList.add('productoNombre');
         h3.textContent = producto.nombre;
 
         //crear h6
-        let h6 = document.createElement('h6');
+        let h6 = document.createElement('p');
         h6.classList.add('productoPrecio');
         h6.textContent = `$${producto.precio}`;
 
