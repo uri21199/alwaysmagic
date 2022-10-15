@@ -499,6 +499,13 @@ main {
     color: rgb(252, 147, 109);
 }
 
+@media screen and (max-width: 990px){
+    .home .productos a {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
 /*Contactos*/
 .formulario {
 	display: grid;
