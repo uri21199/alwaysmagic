@@ -92,6 +92,10 @@ ul.show {
 @media screen and (max-width: 858px) {
     .menu {
         height: 65px;
+        position: fixed;
+        z-index: 100;
+        margin: 0;
+        top: 0%;
     }
 
     .btnMenu {
@@ -231,6 +235,9 @@ main {
 
 .gallery h2 {
     text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .gallery .content {
@@ -243,13 +250,22 @@ main {
 
 .producto {
     margin: 10px 15px;
-    width: 250px;
-    height: 375px;
+    width: 330px;
+    height: 335px;
     border: 1px solid #000;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.producto:hover {
+    transform: translateY(-15px);
 }
 
 .gallery .content img {
-    width: 200px;
+    width: 75%;
     height: 200px;
     text-align: center;
     margin: 0 auto;
@@ -266,7 +282,8 @@ main {
 
 .gallery .content p {
     text-align: center;
-    color: #b2bec3;
+    color: #000;
+    font-weight: 600;
     padding: 0 8px;
 }
 
@@ -282,7 +299,7 @@ main {
     font-size: 24px;
     color: black;
     background-color: #fff;
-    width: 100%;
+    width: 80%;
     outline: none;
     border: none;
     cursor: pointer;
