@@ -301,6 +301,12 @@ main {
     cursor: pointer;
 }
 
+@media screen and (max-width: 300px){
+    .producto {
+        height: 350px;
+    }
+}
+
 /*nosotros*/
 
 .about .row{
