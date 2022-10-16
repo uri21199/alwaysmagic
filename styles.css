@@ -480,6 +480,27 @@ main {
     padding: 40px;
 }
 
+.home .productos .contenedor1{
+    display: flex;    
+    flex-flow: wrap;
+    justify-content: center;  
+}
+
+.home .productos .contenedor1 .image{
+     padding: 0 4rem 30px;
+}
+
+.home .productos .contenedor1 img{
+    max-width: 200px;
+    border-radius: 1%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);    
+}
+
+.home .productos .contenedor1 p{
+    font-weight: bold;
+     font-size: 1.2rem;    
+}
+
 .home .productos .btn{
     display: flex;
     justify-content: center;
@@ -505,6 +526,12 @@ main {
         margin-right: 0 !important;
     }
 }
+
+
+
+
+
+
 
 /*Contactos*/
 .formulario {
