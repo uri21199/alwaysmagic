@@ -480,6 +480,67 @@ main {
     padding: 40px;
 }
 
+.home .productos .contenedor1{
+    display: flex;    
+    flex-flow: wrap;
+    justify-content: center;  
+}
+
+.home .productos .contenedor1 .image{
+     padding: 0 4rem 30px;
+}
+
+.home .productos .contenedor1 img{
+    max-width: 200px;
+    border-radius: 1%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);    
+}
+
+.home .productos .contenedor1 p{
+    font-weight: bold;
+     font-size: 1.2rem;    
+}
+
+.home .productos .contenedor2{
+    padding: 20px;
+}
+.home .productos .btn{
+
+   margin: 0;
+   position: absolute;
+   right: 50%;    
+   -ms-transform: translate(50%, -40%);
+   transform: translate(50%, -40%);    
+   text-decoration: none;
+   background-color: rgb(252, 147, 109);
+   color: #6A321F;
+   font-size: 1.3rem;
+   font-weight: bold;
+   padding: 18px;
+   
+}
+
+.home .productos .btn:hover{
+    background-color: #6A321F;
+    color: rgb(252, 147, 109);
+}
+
+@media only screen and (max-width: 858px){
+
+
+    
+    .home .productos .contenedor2 .btn{
+
+        
+        -ms-transform: translate(50%, -80%);
+        transform: translate(50%, -80%); 
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/*
 .home .productos .btn{
     display: flex;
     justify-content: center;
@@ -505,6 +566,12 @@ main {
         margin-right: 0 !important;
     }
 }
+*/
+
+
+
+
+
 
 /*Contactos*/
 .formulario {
