@@ -2,7 +2,7 @@
 // Productos //
 const fetchData = async () => {
     try {
-        let data = await fetch('http://127.0.0.1:5500/js/productos.json');
+        let data = await fetch('./productos.json');
         let dataJSON = await data.json();
         crear(dataJSON);
         console.log(dataJSON)
