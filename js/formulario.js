@@ -5,13 +5,15 @@ const expresiones = {
 	nombre: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
 	apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
+	telefono: /^\d{7,14}$/, // 7 a 14 numeros.
+	comentario: /^[a-zA-Z0-9\_\-]{1,50}$/ // Letras, numeros, guion y guion_bajo,
 }
 
 const campos = {
 	nombre: false,
 	correo: false,
 	telefono: false,
+	comentario: false,
 }
 
 const validarFormulario = (e) => {
@@ -24,6 +26,9 @@ const validarFormulario = (e) => {
 		break;
 		case "telefono":
 			validarCampo(expresiones.telefono, e.target, 'telefono');
+		break;
+		case "comentario":
+			validarCampo(expresiones.comentario, e.target, 'comentario');
 		break;
 	}
 }
@@ -55,7 +60,7 @@ formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	const terminos = document.getElementById('terminos');
-	if(campos.nombre  && campos.correo && campos.telefono && terminos.checked ){
+	if(campos.nombre  && campos.correo && campos.telefono && campos.comentario && terminos.checked ){
 		formulario.reset();
 
 		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
